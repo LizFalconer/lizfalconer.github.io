@@ -23,10 +23,27 @@ header {
 select {
   font-family: 'EB Garamond', serif;
   display: block;
+  position: relative;
+  width: 100%;
+}
+
+.select {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+}
+
+.select:after {
+    content: "\f107";
+    position: absolute;
+    font-family: 'FontAwesome';
+    right: 10px;
+    top: 2px;
 }
 
 button {
   font-family: 'EB Garamond', serif;
   background-color: #214F71;
   color: #FFFFFF;
+  width: 100%;
 }
