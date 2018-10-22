@@ -1,0 +1,32 @@
+h1 {
+  font-family: Anton; sans-serif;
+  color: #FFFFFF;
+}
+
+h2, h3, h4 {font-family: 'Fjalla One', sans-serif;
+}
+
+body {
+font-family: 'EB Garamond', serif;
+padding-top:120px;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #214F71;
+  padding: 15px;
+}
+
+select {
+  font-family: 'EB Garamond', serif;
+  display: block;
+}
+
+button {
+  font-family: 'EB Garamond', serif;
+  background-color: #214F71;
+  color: #FFFFFF;
+}
