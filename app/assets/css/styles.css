@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 h1 {
   font-family: Anton; sans-serif;
   color: #FFFFFF;
@@ -8,7 +11,12 @@ h2, h3, h4 {font-family: 'Fjalla One', sans-serif;
 
 body {
 font-family: 'EB Garamond', serif;
-padding-top:120px;
+padding-top:80px;
+}
+
+p {
+  font-family: 'courier';
+  font-size: 12px;
 }
 
 header {
@@ -18,10 +26,11 @@ header {
   width: 100%;
   background-color: #214F71;
   padding: 15px;
+  z-index: 500;
 }
 
 select {
-  font-family: 'EB Garamond', serif;
+  font-family: 'courier';
   display: block;
   position: relative;
   width: 100%;
@@ -31,6 +40,11 @@ select {
   display: inline-block;
   position: relative;
   width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 1px;
+  border-color: black;
+  background-color: #ECEAEA;
 }
 
 .select:after {
@@ -38,7 +52,7 @@ select {
     position: absolute;
     font-family: 'FontAwesome';
     right: 10px;
-    top: 2px;
+    top: 12px;
 }
 
 button {
@@ -46,4 +60,60 @@ button {
   background-color: #214F71;
   color: #FFFFFF;
   width: 100%;
+}
+.item .image {
+  display: inline-block;
+  max-width: 49%;
+  padding: 10px;
+  vertical-align: middle;
+}
+
+.image img {
+  max-width: 100%;
+}
+
+.info {
+  display: inline-block;
+  max-width: 49%;
+  padding: 10px;
+  vertical-align: middle;
+  /*background-color: #F9F3E1;*/
+  margin-top: 15px;
+}
+
+.item {
+  border-top: 1px solid black;
+}
+
+#intro {
+  padding-top: 30px;
+  padding-left: 10px;
+}
+
+button {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#results {
+  text-align: center;
+}
+
+#full-item-view {
+  padding-top: 60px;
+  margin: auto;
+  display: inline-block;
+}
+#full-item-view .image {
+  text-align: center;
+}
+#full-item-view .image img {
+  max-width: 100%;
+  height: auto;
+
+}
+
+#full-item-view .info {
+  max-width: 100%;
+  margin: auto;
 }
