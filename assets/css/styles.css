@@ -11,6 +11,7 @@ right: 0px;
 animation: slide 5s forwards;
 animation-delay: 0.5s;
 top: 150px;
+opacity: 0.4;
 }
 
 @keyframes slide {
@@ -40,6 +41,7 @@ left: 0px;
 animation: waves2 8s forwards;
 animation-delay: 0.5s;
 top: 250px;
+opacity: 0.5;
 }
 
 @keyframes waves2 {
@@ -56,8 +58,7 @@ body {
 
 
 .second-p {
-  max-width: 50%;
-  top: 200px;
+  max-width: 80%;
 }
 
 #big-ship img{
@@ -68,6 +69,7 @@ animation: big-ship 7s forwards;
 animation-delay: 3s;
 top: 450px;
 transform: scaleX(-1);
+opacity: 0.4;
 }
 
 @keyframes big-ship {
@@ -82,6 +84,7 @@ animation: whale 5s forwards;
 animation-delay: 5s;
 top: 380px;
 transform: scaleX(-1);
+opacity: 0.3;
 }
 
 @keyframes whale {
@@ -95,7 +98,9 @@ left: 0px;
 animation: big-wave 5s forwards;
 animation-delay: 2s;
 top: 600px;
+opacity: 0.5;
 }
+
 
 @keyframes big-wave {
     100% { left: 45%; }
@@ -113,4 +118,31 @@ a {
 nav {
   margin-top: 40px;
   left: 30%;
+}
+
+#big-old-ship img{
+max-width: 700px;
+position: absolute;
+right: 0px;
+animation: big-old-ship 9s backwards;
+animation-delay: 8s;
+top: 850px;
+transform: scaleX(-1);
+opacity: 0.4;
+}
+
+@keyframes big-old-ship {
+    100% { right: 45%; }
+
+.container {
+  max-width: 80%;
+}
+
+
+.row {
+
+    }
+
+.column {
+  max-width: 25%;
 }
