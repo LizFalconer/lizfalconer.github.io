@@ -1,0 +1,28 @@
+{
+ "candidates": [
+   {
+     "id": 1,
+     "name": "Alex Fox",
+     "short_description": "Alex fox is a web developer based in London",
+     "long_description" : "Aenean eleifend libero condimentum, laoreet justo quis, gravida arcu. Aliquam sem nisl, ullamcorper pellentesque tincidunt et, mollis sed dui. Vestibulum in justo ac justo ultricies vulputate. Proin vitae nunc imperdiet augue feugiat varius. Sed faucibus mauris ut lacus placerat ultricies. Curabitur aliquam massa et ante blandit, ut posuere velit imperdiet. Mauris dapibus suscipit nisi, nec maximus sem consequat finibus.",
+     "thumbnail": "https://ibb.co/cmsRvA",
+     "category": "developer"
+   },
+   {
+     "id": 2,
+     "name": "Miles Davis",
+     "short_description": "Miles Davis is a designer based in London",
+     "long_description" : "Aenean eleifend libero condimentum, laoreet justo quis, gravida arcu. Aliquam sem nisl, ullamcorper pellentesque tincidunt et, mollis sed dui. Vestibulum in justo ac justo ultricies vulputate. Proin vitae nunc imperdiet augue feugiat varius. Sed faucibus mauris ut lacus placerat ultricies. Curabitur aliquam massa et ante blandit, ut posuere velit imperdiet. Mauris dapibus suscipit nisi, nec maximus sem consequat finibus.",
+     "thumbnail": "https://ibb.co/cmsRvA",
+     "category": "designer"
+   },
+   {
+     "id": 3,
+     "name": "Brenda Lee",
+     "short_description": "Brenda Lee is a project manager based in London",
+     "long_description" : "Aenean eleifend libero condimentum, laoreet justo quis, gravida arcu. Aliquam sem nisl, ullamcorper pellentesque tincidunt et, mollis sed dui. Vestibulum in justo ac justo ultricies vulputate. Proin vitae nunc imperdiet augue feugiat varius. Sed faucibus mauris ut lacus placerat ultricies. Curabitur aliquam massa et ante blandit, ut posuere velit imperdiet. Mauris dapibus suscipit nisi, nec maximus sem consequat finibus.",
+     "thumbnail": "https://ibb.co/cmsRvA",
+     "category": "project-manager"
+   }
+ ]
+}
