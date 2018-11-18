@@ -3,21 +3,6 @@ header .logo img{
 max-width: 285px;
 }
 
-
-#ship img{
-max-width: 300px;
-position: absolute;
-right: 0px;
-animation: slide 5s forwards;
-animation-delay: 0.5s;
-top: 150px;
-opacity: 0.4;
-}
-
-@keyframes slide {
-    100% { right: 75%; }
-}
-
 p {
   font-family: 'Crimson Text', serif;
 }
@@ -34,19 +19,7 @@ h3 {
   padding-right: 220px;
 }
 
-#big-waves img{
-max-width: 100%;
-position: absolute;
-left: 0px;
-animation: waves2 8s forwards;
-animation-delay: 0.5s;
-top: 250px;
-opacity: 0.5;
-}
 
-@keyframes waves2 {
-    100% { left: 75%; }
-}
 
 body {
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1e5799+0,207cca+97,7db9e8+100&0.1+1,1+100 */
@@ -61,13 +34,42 @@ body {
   max-width: 80%;
 }
 
+#ship img{
+max-width: 300px;
+position: absolute;
+right: 0px;
+animation: slide 10s forwards;
+animation-delay: 0.5s;
+top: 150px;
+opacity: 0.4;
+}
+
+@keyframes slide {
+    100% { right: 75%; }
+}
+
+#big-waves img{
+max-width: 100%;
+position: absolute;
+left: 0px;
+animation: waves2 12s backwards;
+animation-delay: 2s;
+top: 550px;
+opacity: 0.5;
+}
+
+@keyframes waves2 {
+    100% { left: 75%; }
+}
+
+
 #big-ship img{
 max-width: 700px;
 position: absolute;
 left: 0px;
-animation: big-ship 7s forwards;
-animation-delay: 3s;
-top: 450px;
+animation: big-ship 12s forwards;
+animation-delay: 4s;
+top: 950px;
 transform: scaleX(-1);
 opacity: 0.4;
 }
@@ -80,9 +82,9 @@ opacity: 0.4;
 max-width: 100%;
 position: absolute;
 right: 0px;
-animation: whale 5s forwards;
-animation-delay: 5s;
-top: 380px;
+animation: whale 5s backwards;
+animation-delay: 7s;
+top: 1350px;
 transform: scaleX(-1);
 opacity: 0.3;
 }
@@ -97,7 +99,7 @@ position: absolute;
 left: 0px;
 animation: big-wave 5s forwards;
 animation-delay: 2s;
-top: 600px;
+top: 1750px;
 opacity: 0.5;
 }
 
@@ -126,23 +128,115 @@ position: absolute;
 right: 0px;
 animation: big-old-ship 9s backwards;
 animation-delay: 8s;
-top: 850px;
+top: 2150px;
 transform: scaleX(-1);
 opacity: 0.4;
 }
 
 @keyframes big-old-ship {
     100% { right: 45%; }
+}
+
+#mermaid img{
+max-width: 700px;
+position: absolute;
+right: 0px;
+animation: mermaid 9s backwards;
+animation-delay: 8s;
+top: 2550px;
+transform: scaleX(-1);
+opacity: 0.4;
+}
+
+@keyframes mermaid {
+    100% { right: 45%; }
+}
+
+#kraken-1 img{
+max-width: 700px;
+position: absolute;
+right: 0px;
+animation: kraken-1 9s backwards;
+animation-delay: 10s;
+top: 2950px;
+transform: scaleX(-1);
+opacity: 0.2;
+}
+
+@keyframes kraken-1 {
+    100% { right: 45%; }
+}
+
+#new-ship-2 img{
+max-width: 700px;
+position: absolute;
+right: 0px;
+animation: new-ship-2 9s backwards;
+animation-delay: 10s;
+top: 3350px;
+transform: scaleX(-1);
+opacity: 0.2;
+}
+
+@keyframes new-ship-2 {
+    100% { right: 45%; }
+}
+
+#skullkraken img{
+max-width: 700px;
+position: absolute;
+right: 0px;
+animation: skullkraken 9s backwards;
+animation-delay: 10s;
+top: 3750px;
+transform: scaleX(-1);
+opacity: 0.2;
+}
+
+@keyframes skullkraken {
+    100% { right: 45%; }
+}
+
+#tentacle img{
+max-width: 700px;
+position: absolute;
+right: 0px;
+animation: tentacle 9s backwards;
+animation-delay: 10s;
+top: 4150px;
+transform: scaleX(-1);
+opacity: 0.2;
+}
+
+@keyframes tentacle {
+    100% { right: 45%; }
+}
+
+#big-wave-2 img{
+max-width: 700px;
+position: absolute;
+right: 0px;
+animation: big-wave-2 9s backwards;
+animation-delay: 10s;
+top: 4550px;
+transform: scaleX(-1);
+opacity: 0.2;
+}
+
+@keyframes big-wave-2 {
+    100% { right: 45%; }
+}
 
 .container {
   max-width: 80%;
-}
+    }
 
 
 .row {
 
     }
 
-.column {
-  max-width: 25%;
+.col {
+  padding-top: 20px;
+  padding-bottom: 30px;
 }
