@@ -2,27 +2,75 @@
  "candidates": [
    {
      "id": 1,
-     "name": "Alex Fox",
-     "short_description": "Alex fox is a web developer based in London",
-     "long_description" : "Aenean eleifend libero condimentum, laoreet justo quis, gravida arcu. Aliquam sem nisl, ullamcorper pellentesque tincidunt et, mollis sed dui. Vestibulum in justo ac justo ultricies vulputate. Proin vitae nunc imperdiet augue feugiat varius. Sed faucibus mauris ut lacus placerat ultricies. Curabitur aliquam massa et ante blandit, ut posuere velit imperdiet. Mauris dapibus suscipit nisi, nec maximus sem consequat finibus.",
-     "thumbnail": "https://ibb.co/cmsRvA",
-     "category": "developer"
+     "name": "Lester Freamon",
+     "short_description": "All the pieces matter",
+     "long_description" : "You follow the drugs, and you're going to get drug addicts and drug dealers. But you start to follow the money... and you don't know where the fuck it's going to take you.",
+     "thumbnail": "assets/images/Lester2.jpg",
+     "category": "natural-police"
    },
    {
      "id": 2,
-     "name": "Miles Davis",
-     "short_description": "Miles Davis is a designer based in London",
-     "long_description" : "Aenean eleifend libero condimentum, laoreet justo quis, gravida arcu. Aliquam sem nisl, ullamcorper pellentesque tincidunt et, mollis sed dui. Vestibulum in justo ac justo ultricies vulputate. Proin vitae nunc imperdiet augue feugiat varius. Sed faucibus mauris ut lacus placerat ultricies. Curabitur aliquam massa et ante blandit, ut posuere velit imperdiet. Mauris dapibus suscipit nisi, nec maximus sem consequat finibus.",
-     "thumbnail": "https://ibb.co/cmsRvA",
-     "category": "designer"
+     "name": "Bunk Moreland",
+     "short_description": "I'm just a humble motherfucker with a big ass dick.",
+     "long_description" : "I'm a murder police. I work murders. I don't fuck with no make-believe. I don't jerk shit around. I catch a murder, and I work it.",
+     "thumbnail": "assets/images/bunk.jpg",
+     "category": "natural-police"
    },
    {
      "id": 3,
-     "name": "Brenda Lee",
-     "short_description": "Brenda Lee is a project manager based in London",
+     "name": "Shakima Greggs",
+     "short_description": "Fighting the war on drugs... one brutality case at a time.",
      "long_description" : "Aenean eleifend libero condimentum, laoreet justo quis, gravida arcu. Aliquam sem nisl, ullamcorper pellentesque tincidunt et, mollis sed dui. Vestibulum in justo ac justo ultricies vulputate. Proin vitae nunc imperdiet augue feugiat varius. Sed faucibus mauris ut lacus placerat ultricies. Curabitur aliquam massa et ante blandit, ut posuere velit imperdiet. Mauris dapibus suscipit nisi, nec maximus sem consequat finibus.",
-     "thumbnail": "https://ibb.co/cmsRvA",
-     "category": "project-manager"
+     "thumbnail": "assets/images/kima.jpg",
+     "category": "natural-police"
+   },
+   {
+     "id": 4,
+     "name": "Jimmy McNulty",
+     "short_description": "What the fuck did I do?",
+     "long_description" : "The things that make me right for this job, maybe they’re the same things that make me wrong for everything else.",
+     "thumbnail": "assets/images/mcnutty.jpg",
+     "category": "natural-police"
+   },
+   {
+     "id": 5,
+     "name": "Omar Little",
+     "short_description": "You come at the king... you best not miss.",
+     "long_description" : "I got the shotgun, you got the briefcase. It's all in the game though, right?",
+     "thumbnail": "assets/images/omar.jpg",
+     "category": "come-at-the-king"
+   },
+   {
+     "id": 6,
+     "name": "D'Angelo Barksdale",
+     "short_description": "The king stays the king.",
+     "long_description" : "Fuck right. It ain't about right. It's about the money.",
+     "thumbnail": "assets/images/D.jpg",
+     "category": "come-at-the-king"
+   },
+   {
+     "id": 7,
+     "name": "Bodie",
+     "short_description": "This game is rigged, man. We like the little bitches on a chessboard.",
+     "long_description" : "Anybody who spend they time witnessing shit... you gonna get got.",
+     "thumbnail": "assets/images/bodie.jpg",
+     "category": "come-at-the-king"
+   },
+   {
+     "id": 8,
+     "name": "Clay Davis",
+     "short_description": "Sheeeeeeeeeeeeeeeeeeit",
+     "long_description" : "You think I have time to ask a man why he giving me money? Or where he gets his money from? I'll take any motherfucker's money if he givin' it away!",
+     "thumbnail": "assets/images/ClayDavis.jpg",
+     "category": "Sheeeeeeeeeeeeeeeeeeit"
+   },
+   {
+     "id": 9,
+     "name": "Tommy Carcetti",
+     "short_description": "Sheeeeeeeeeeeeeeeeeeit",
+     "long_description" : "Aenean eleifend libero condimentum, laoreet justo quis, gravida arcu. Aliquam sem nisl, ullamcorper pellentesque tincidunt et, mollis sed dui. Vestibulum in justo ac justo ultricies vulputate. Proin vitae nunc imperdiet augue feugiat varius. Sed faucibus mauris ut lacus placerat ultricies. Curabitur aliquam massa et ante blandit, ut posuere velit imperdiet. Mauris dapibus suscipit nisi, nec maximus sem consequat finibus.",
+     "thumbnail": "assets/images/Carcetti.jpg",
+     "category": "Sheeeeeeeeeeeeeeeeeeit"
    }
  ]
 }

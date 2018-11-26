@@ -23,7 +23,7 @@
           Wiretapped</h1>
     </header>
     <main>
-      <div id="results-list" style="display:none">
+      <div id="results-list">
       <section id="intro">
         <h4>
           All the pieces matter
@@ -32,71 +32,43 @@
       </section>
       <section>
         <form>
-          <div class="select">
+          <div class="select" id="filter">
           <select>
               <option>Please select</option>
-              <option value "Natural Police">Natural Police</option>
-              <option value "Come at the king">Come at the king</option>
-              <option value "Sheeeeeeeeeeeeeeeeeeit">Sheeeeeeeeeeeeeeeeeeit</option>
+              <option value="natural-police">Natural Police</option>
+              <option value="come-at-the-king">Come at the king</option>
+              <option value="Sheeeeeeeeeeeeeeeeeeit">Sheeeeeeeeeeeeeeeeeeit</option>
           </select>
         </div>
-          <button>Get the re-up</button>
+          <button type="button" id="filter-data">Get the re-up</button>
         </form>
       </section>
 
-      <h2 id="results">Showing results for <span id="result-type">Natural Police</span></h2>
+      <h2 style="display:none" id="results">Showing results for <span id="result-type"></span></h2>
       <div id="filtered-data">
-        <div class="item">
-          <div class="image">
-            <img src="assets/images/Lester2.jpg" alt="Lester Freamon" />
-          </div>
-          <div class="info">
-            <h3>Lester Freamon</h3>
-            <p>You follow the drugs, and you're going to get drug addicts and drug dealers. But you start to follow the money... and you don't know where the fuck it's going to take you.</p>
-          </div>
-        </div>
-        <div class="item">
-          <div class="image">
-            <img src="assets/images/bunk.jpg" alt="Bunk Moreland" />
-          </div>
-          <div class="info">
-            <h3>Bunk Moreland</h3>
-            <p>I'm a murder police. I work murders. I don't fuck with no make-believe. I don't jerk shit around. I catch a murder, and I work it.</p>
-          </div>
-        </div>
-        <div class="item">
-          <div class="image">
-            <img src="assets/images/kima.jpg" alt="Kima Greggs" />
-          </div>
-          <div class="info">
-            <h3>Shakima Greggs</h3>
-            <p>Fighting the war on drugs... one brutality case at a time.</p>
-          </div>
-        </div>
-        <div class="item">
-          <div class="image">
-            <img src="assets/images/mcnutty.jpg" alt="Jimmy McNulty" />
-          </div>
-          <div class="info">
-            <h3>Jimmy McNulty</h3>
-            <p>What the fuck did I do?</p>
-          </div>
-        </div>
-      </div>
+
     </div>
-    <div id="full-item-view">
-    <button id="back-to-start" type="button">Go back</button>
-      <div class="image">
-        <img src="assets/images/Lester2.jpg" alt="Lester Freamon" />
-      </div>
-      <div class="info">
-        <h3>Lester Freamon</h3>
-        <p>You follow the drugs, and you're going to get drug addicts and drug dealers. But you start to follow the money... and you don't know where the fuck it's going to take you.</p>
-      </div>
-    </div>
+
   </div>
       <section>
+        <div id="full-item-view" style="display:none">
+        <button id="back-to-start" type="button">Go back</button>
+          <div class="image">
+            <img src="" alt="" />
+          </div>
+          <div class="info">
+            <h3></h3>
+            <div class="long-description"></div>
+          </div>
+        </div>
       </section>
     </main>
+    <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+  <script src="https://www.gstatic.com/firebasejs/5.5.8/firebase.js"></script>
+  <script src="assets/js/app.js"></script>
+
   </body>
 </html>

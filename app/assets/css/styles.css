@@ -10,13 +10,14 @@ h2, h3, h4 {font-family: 'Fjalla One', sans-serif;
 }
 
 body {
-font-family: 'EB Garamond', serif;
+font-family: 'courier', serif;
+font-size: 20px;
 padding-top:80px;
 }
 
 p {
   font-family: 'courier';
-  font-size: 12px;
+  font-size: 18px;
 }
 
 header {
@@ -56,10 +57,11 @@ select {
 }
 
 button {
-  font-family: 'EB Garamond', serif;
+  font-family: 'courier', serif;
   background-color: #214F71;
   color: #FFFFFF;
   width: 100%;
+  font-size: 20px;
 }
 .item .image {
   display: inline-block;
