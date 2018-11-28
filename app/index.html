@@ -17,7 +17,8 @@
     <title>Hello, world!</title>
   </head>
   <body>
-    <header>
+    <a href="#results-list" class="sr-only">Skip header</a>
+    <header role="banner">
         <h1>
           <i class="fa fa-mobile" aria-hidden="true"></i>
           Wiretapped</h1>
@@ -31,10 +32,10 @@
         <p>Select a category from the dropdown below.</p>
       </section>
       <section>
-        <form>
+        <form role="search">
           <div class="select" id="filter">
-            <label for="category-filter"Select a job role</label>
-          <select name="category-filter">
+            <label class="sr-only" for="category-filter"Select a job role</label>
+          <select id="category-filter" name="category-filter">
               <option>Please select</option>
               <option value="natural-police">Natural Police</option>
               <option value="come-at-the-king">Come at the king</option>
@@ -58,7 +59,7 @@
             <img src="" alt="" />
           </div>
           <div class="info">
-            <h3></h3>
+            <h3>More info</h3>
             <div class="long-description"></div>
           </div>
         </div>

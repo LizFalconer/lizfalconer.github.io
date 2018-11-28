@@ -15,6 +15,21 @@ font-size: 20px;
 padding-top:80px;
 }
 
+.sr-only {
+  position: absolute;
+  left: -9999px;
+  width: 0px;
+  height: 0px;
+}
+
+.sr-only:focus {
+  position: relative;
+  left: 0;
+  overflow: visible;
+  width: inherit;
+  height: inherit;
+}
+
 p {
   font-family: 'courier';
   font-size: 18px;
@@ -121,5 +136,5 @@ button {
 }
 
 @media(max-width: 1024px) {
-  
+
 }
