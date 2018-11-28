@@ -8,9 +8,11 @@ p {
 }
 
 h3 {
-  font-family: 'Crimson Text', serif;
-  font-size: 24px;
+  font-family: 'Tangerine', cursive;
+  font-size: 34px;
   font-weight: bold;
+  padding-top: 20px;
+  letter-spacing: 1px;
 }
 
 
@@ -34,49 +36,16 @@ body {
   max-width: 80%;
 }
 
-#ship img{
-max-width: 300px;
-position: absolute;
-right: 0px;
-animation: slide 10s forwards;
-animation-delay: 0.5s;
-top: 150px;
-opacity: 0.4;
-}
+
 
 @keyframes slide {
     100% { right: 75%; }
 }
 
-#big-waves img{
-max-width: 100%;
-position: absolute;
-left: 0px;
-animation: waves2 12s backwards;
-animation-delay: 2s;
-top: 550px;
-opacity: 0.5;
-}
-
-@keyframes waves2 {
-    100% { left: 75%; }
-}
 
 
-#big-ship img{
-max-width: 700px;
-position: absolute;
-left: 0px;
-animation: big-ship 12s forwards;
-animation-delay: 4s;
-top: 950px;
-transform: scaleX(-1);
-opacity: 0.4;
-}
 
-@keyframes big-ship {
-    100% { left: 45%; }
-}
+
 
 #whale img{
 max-width: 100%;
@@ -119,7 +88,6 @@ a {
 
 nav {
   margin-top: 40px;
-  left: 30%;
 }
 
 #big-old-ship img{
@@ -140,16 +108,46 @@ opacity: 0.4;
 #mermaid img{
 max-width: 700px;
 position: absolute;
+top: 275px;
 right: 0px;
-animation: mermaid 9s backwards;
-animation-delay: 8s;
-top: 2550px;
-transform: scaleX(-1);
-opacity: 0.4;
+opacity: 0.1;
 }
 
-@keyframes mermaid {
-    100% { right: 45%; }
+#skullkraken img{
+max-width: 700px;
+position: absolute;
+left: 0px;
+top: 500px;
+opacity: 0.1;
+}
+
+#big-ship img{
+max-width: 700px;
+position: absolute;
+left: 0px;
+animation: big-ship 12s forwards;
+animation-delay: 4s;
+top: 950px;
+transform: scaleX(-1);
+opacity: 0.2;
+}
+
+#big-waves img{
+max-width: 100%;
+position: absolute;
+left: 0px;
+animation: waves2 12s backwards;
+animation-delay: 2s;
+top: 1150px;
+opacity: 0.5;
+}
+
+@keyframes waves2 {
+    100% { left: 75%; }
+}
+
+@keyframes big-ship {
+    100% { left: 45%; }
 }
 
 #kraken-1 img{
@@ -182,20 +180,7 @@ opacity: 0.2;
     100% { right: 45%; }
 }
 
-#skullkraken img{
-max-width: 700px;
-position: absolute;
-right: 0px;
-animation: skullkraken 9s backwards;
-animation-delay: 10s;
-top: 3750px;
-transform: scaleX(-1);
-opacity: 0.2;
-}
 
-@keyframes skullkraken {
-    100% { right: 45%; }
-}
 
 #tentacle img{
 max-width: 700px;
@@ -239,4 +224,22 @@ opacity: 0.2;
 .col {
   padding-top: 20px;
   padding-bottom: 30px;
+}
+
+.rose {
+  padding-top: 20px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+.compassrose {
+  max-width: 80px;
+  height: auto;
+  position: relative;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Tangerine', cursive;
+  font-size: 60px
 }
