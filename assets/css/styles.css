@@ -32,51 +32,6 @@ body {
 }
 
 
-.second-p {
-  max-width: 80%;
-}
-
-
-
-@keyframes slide {
-    100% { right: 75%; }
-}
-
-
-
-
-
-
-#whale img{
-max-width: 100%;
-position: absolute;
-right: 0px;
-animation: whale 5s backwards;
-animation-delay: 7s;
-top: 1350px;
-transform: scaleX(-1);
-opacity: 0.3;
-}
-
-@keyframes whale {
-    100% { right: 45%; }
-}
-
-#big-wave img{
-max-width: 60%;
-position: absolute;
-left: 0px;
-animation: big-wave 5s forwards;
-animation-delay: 2s;
-top: 1750px;
-opacity: 0.5;
-}
-
-
-@keyframes big-wave {
-    100% { left: 45%; }
-}
-
 ul {
   top: 50px;
   font-family: 'Crimson Text', serif;
@@ -90,167 +45,13 @@ nav {
   margin-top: 40px;
 }
 
-#big-old-ship img{
-max-width: 700px;
-position: absolute;
-right: 0px;
-animation: big-old-ship 9s backwards;
-animation-delay: 8s;
-top: 2150px;
-transform: scaleX(-1);
-opacity: 0.4;
-}
-
-@keyframes big-old-ship {
-    100% { right: 45%; }
-}
-
-#mermaid {
-max-height: 800px;
-position: inherit;
-opacity: 0.8;
-}
-
-
-#skullkraken {
-max-width: 350px;
-position: inherit;
-opacity: 0.4;
-}
-
-#big-ship img{
-max-width: 700px;
-position: absolute;
-left: 0px;
-animation: big-ship 12s forwards;
-animation-delay: 4s;
-top: 950px;
-transform: scaleX(-1);
-opacity: 0.2;
-}
-
-#big-waves {
-max-width: 100%;
-position: inherit;
-opacity: 0.5;
-}
-
-.slide-in-blurred-right {
-	-webkit-animation: slide-in-blurred-right 12s cubic-bezier(0.230, 1.000, 0.320, 1.000) infinite both;
-	        animation: slide-in-blurred-right 12s cubic-bezier(0.230, 1.000, 0.320, 1.000) infinite both;
-}
-
-@-webkit-keyframes slide-in-blurred-right {
-  0% {
-    -webkit-transform: translateX(1000px) scaleX(2.5) scaleY(0.2);
-            transform: translateX(1000px) scaleX(2.5) scaleY(0.2);
-    -webkit-transform-origin: 0% 50%;
-            transform-origin: 0% 50%;
-    -webkit-filter: blur(40px);
-            filter: blur(40px);
-    opacity: 0;
-  }
-  100% {
-    -webkit-transform: translateX(0) scaleY(1) scaleX(1);
-            transform: translateX(0) scaleY(1) scaleX(1);
-    -webkit-transform-origin: 50% 50%;
-            transform-origin: 50% 50%;
-    -webkit-filter: blur(0);
-            filter: blur(0);
-    opacity: 1;
-  }
-}
-@keyframes slide-in-blurred-right {
-  0% {
-    -webkit-transform: translateX(1000px) scaleX(2.5) scaleY(0.2);
-            transform: translateX(1000px) scaleX(2.5) scaleY(0.2);
-    -webkit-transform-origin: 0% 50%;
-            transform-origin: 0% 50%;
-    -webkit-filter: blur(40px);
-            filter: blur(40px);
-    opacity: 0;
-  }
-  100% {
-    -webkit-transform: translateX(0) scaleY(1) scaleX(1);
-            transform: translateX(0) scaleY(1) scaleX(1);
-    -webkit-transform-origin: 50% 50%;
-            transform-origin: 50% 50%;
-    -webkit-filter: blur(0);
-            filter: blur(0);
-    opacity: 1;
-  }
-}
-
-
-#kraken-1 img{
-max-width: 700px;
-position: absolute;
-right: 0px;
-animation: kraken-1 9s backwards;
-animation-delay: 10s;
-top: 2950px;
-transform: scaleX(-1);
-opacity: 0.2;
-}
-
-@keyframes kraken-1 {
-    100% { right: 45%; }
-}
-
-#new-ship-2 img{
-max-width: 700px;
-position: absolute;
-right: 0px;
-animation: new-ship-2 9s backwards;
-animation-delay: 10s;
-top: 3350px;
-transform: scaleX(-1);
-opacity: 0.2;
-}
-
-@keyframes new-ship-2 {
-    100% { right: 45%; }
-}
-
-
-
-#tentacle img{
-max-width: 700px;
-position: absolute;
-right: 0px;
-animation: tentacle 9s backwards;
-animation-delay: 10s;
-top: 4150px;
-transform: scaleX(-1);
-opacity: 0.2;
-}
-
-@keyframes tentacle {
-    100% { right: 45%; }
-}
-
-#big-wave-2 img{
-max-width: 700px;
-position: absolute;
-right: 0px;
-animation: big-wave-2 9s backwards;
-animation-delay: 10s;
-top: 4550px;
-transform: scaleX(-1);
-opacity: 0.2;
-}
-
-@keyframes big-wave-2 {
-    100% { right: 45%; }
-}
-
 .container {
   max-width: 80%;
     }
 
 
 .row {
-
+margin-top: 40px;
     }
 
 .col {
@@ -276,87 +77,69 @@ h1 {
   font-size: 60px
 }
 
-#mermaid img{
-  -webkit-animation-duration: 2.5s;
-  animation-duration: 2.5s;
-  -webkit-animation-fill-mode: both;
-  animation-fill-mode: both;
-  -webkit-animation-timing-function: linear;
-  animation-timing-function: linear;
-  animation-iteration-count: infinite;
-  -webkit-animation-iteration-count: infinite;
+#mermaid {
+opacity: 0.5;
 }
 
-.heartbeat {
-	-webkit-animation: heartbeat 9s ease-in-out infinite both;
-	        animation: heartbeat 9s ease-in-out infinite both;
+#mermaid:hover {
+opacity: 0.9;
+transition: opacity .25s ease-in-out;
+-moz-transition: opacity .25s ease-in-out;
+-webkit-transition: opacity .25s ease-in-out;
+animation: bounce 6s;
 }
 
-@-webkit-keyframes heartbeat {
+@keyframes bounce {
   from {
-    -webkit-transform: scale(1);
-            transform: scale(1);
-    -webkit-transform-origin: center center;
-            transform-origin: center center;
-    -webkit-animation-timing-function: ease-out;
-            animation-timing-function: ease-out;
+    top: 0px;
+    animation-timing-function: ease-out;
   }
-  10% {
-    -webkit-transform: scale(0.96);
-            transform: scale(0.96);
-    -webkit-animation-timing-function: ease-in;
-            animation-timing-function: ease-in;
+  25% {
+    top: 50px;
+    animation-timing-function: ease-in;
   }
-  17% {
-    -webkit-transform: scale(0.98);
-            transform: scale(0.98);
-    -webkit-animation-timing-function: ease-out;
-            animation-timing-function: ease-out;
+  50% {
+    top: 150px;
+    animation-timing-function: ease-out;
   }
-  33% {
-    -webkit-transform: scale(0.92);
-            transform: scale(0.92);
-    -webkit-animation-timing-function: ease-in;
-            animation-timing-function: ease-in;
+  75% {
+    top: 75px;
+    animation-timing-function: ease-in;
   }
-  45% {
-    -webkit-transform: scale(1);
-            transform: scale(1);
-    -webkit-animation-timing-function: ease-out;
-            animation-timing-function: ease-out;
+  to {
+    top: 0px;
   }
 }
-@keyframes heartbeat {
-  from {
-    -webkit-transform: scale(1);
-            transform: scale(1);
-    -webkit-transform-origin: center center;
-            transform-origin: center center;
-    -webkit-animation-timing-function: ease-out;
-            animation-timing-function: ease-out;
-  }
-  10% {
-    -webkit-transform: scale(0.91);
-            transform: scale(0.91);
-    -webkit-animation-timing-function: ease-in;
-            animation-timing-function: ease-in;
-  }
-  17% {
-    -webkit-transform: scale(0.98);
-            transform: scale(0.98);
-    -webkit-animation-timing-function: ease-out;
-            animation-timing-function: ease-out;
-  }
-  33% {
-    -webkit-transform: scale(0.87);
-            transform: scale(0.87);
-    -webkit-animation-timing-function: ease-in;
-            animation-timing-function: ease-in;
-  }
-  45% {
-    -webkit-transform: scale(1);
-            transform: scale(1);
-    -webkit-animation-timing-function: ease-out;
-            animation-timing-function: ease-out;
-  }
+
+ #skullkraken {
+   max-width: 300px;
+   opacity: 0.8;
+   transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+ }
+
+ #skullkraken:hover {
+   transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+   transition: transform .25s ease-in-out;
+   -moz-transition: transform .25s ease-in-out;
+   -webkit-transition: transform .5s ease-in-out;
+   opacity: 1;
+/* Question for Alex: how to make the zoom out more gentle */
+ }
+
+
+#newship {
+right: -100px
+  position: fixed;
+  transition: right 0.4s ease-in-out;
+-webkit-transition: right 0.4s ease-in-out;
+width: 300px;
+height: auto;
+right: -300px;
+}
+
+
+#newship:hover {
+  right: 0px;
 }
