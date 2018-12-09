@@ -58,6 +58,7 @@ margin-top: 40px;
 .col {
   padding-top: 20px;
   padding-bottom: 30px;
+  text-align: center;
 }
 
 .rose {
@@ -77,6 +78,20 @@ h1 {
   font-family: 'Tangerine', cursive;
   font-size: 60px
 }
+
+#shark {
+  max-width: 360px;
+  opacity: 0.6;
+}
+
+#shark:hover {
+  opacity: 0.9;
+  transition: opacity .25s ease-in-out;
+  -moz-transition: opacity .25s ease-in-out;
+  -webkit-transition: opacity .25s ease-in-out;
+  animation: bounce 4s;
+  /*Ask Alex why this works on mermaid but not on shark*/
+  }
 
 #mermaid {
 opacity: 0.5;
@@ -114,12 +129,13 @@ animation: bounce 6s;
 }
 
  #skullkraken {
-   max-width: 300px;
+   max-width: 400px;
    opacity: 0.8;
    transition: opacity .25s ease-in-out;
    -moz-transition: opacity .25s ease-in-out;
    -webkit-transition: opacity .25s ease-in-out;
-   /*on mobile set a max-width*/
+      padding-left: 100px;
+   /*on mobile set a max-width and remove padding-left*/
  }
 
  #skullkraken:hover {
@@ -128,7 +144,7 @@ animation: bounce 6s;
    -moz-transition: transform .25s ease-in-out;
    -webkit-transition: transform .5s ease-in-out;
    opacity: 1;
-   left: 50px;
+   padding-left: 100px;
 /* Question for Alex: how to make the zoom out more gentle */
  }
 
@@ -145,6 +161,7 @@ right: -300px;
 
 #newship:hover {
   right: 0px;
+  /*animate this on hover somehow*/
 }
 
 #ship2 {
@@ -175,10 +192,47 @@ right: -300px;
 
 #bigwaves {
   opacity: 0.4;
+  /*set a media query to display:none*/
 }
 
 #flowers {
   max-height: 360px;
   width: auto;
+  padding-left: 100px;
   /*ask Alex how to centre this more*/
+  /*set a media query of max height around 150px*/
 }
+
+#tentacle {
+  opacity: 0.7;
+  max-height: 150px;
+  width: auto;
+  padding-top: 30px;
+}
+
+.center {
+  text-align: center;
+}
+
+#pirate {
+  max-height: 350px;
+  width: auto;
+}
+ firstletter {
+   font-size: 45px;
+   font-weight: bold;
+ }
+
+ p:first-child:first-letter {
+  font-size: 50px;
+  float: left;
+  margin-right: 5px;
+  vertical-align: top;
+  line-height: 40px;
+ }
+
+ #treasure {
+   max-width: 360px;
+   height: auto;
+   opacity: 0.5;
+ }
